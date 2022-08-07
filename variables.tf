@@ -24,7 +24,7 @@ variable "primary_ips" {
   default     = [
     {
       name       = "primary_ip-1"
-      datacenter = "nbg1"
+      datacenter = "nbg1-dc3"
       target     = "server"
       type       = "ipv4"
       protection = false
